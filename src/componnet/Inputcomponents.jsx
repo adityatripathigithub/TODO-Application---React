@@ -10,7 +10,7 @@ const Inputcomponents = (props) => {
   console.log(setdata);
   
   const haddechane = ()=>{
-    setdata({name:"shivam"})
+    setdata({name:"Aditya . . ."})
   }
 
 
