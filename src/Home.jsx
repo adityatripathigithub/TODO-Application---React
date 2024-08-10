@@ -5,14 +5,13 @@ import Show from './componnet/Show'
 
 const Home = () => {
 
-    const [data, setdata] = useState({ name: "shivam" })
+    const [data, setdata] = useState({ name: "Hello" })
     return (
 
         <div className='h-screen mt-0 bg-[#27272A]'>
             <Herder value={data} />
             <Inputcomponents value={[data, setdata]} />
-            <Show />
-
+            <Show value={[data]} />
         </div>
     )
 }
